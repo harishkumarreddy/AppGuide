@@ -69,7 +69,7 @@ We dont have RBMS in this small static application. But, for simple authenticati
     The content of the file: 
     password|Test User
 
-Here with this filename, 
+Here is the user info with this filename, 
 ```
 Username: user1
 password: password
