@@ -81,7 +81,7 @@ FullName: Test User
 
 
 ### 4. Deplyment
-As it is a static page, we can directly place all projrct files under server public rout. 
+As it is a static page project, we can directly place all projrct files under server public rout or updated/upload specific files into relative paths. 
 
 ---
 @author: [Harishkumar](https://www.linkedin.com/in/harishkumar-reddy-ch-93b85a131)
