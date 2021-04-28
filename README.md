@@ -64,10 +64,10 @@ Left side nav of the application is main navigator. Strecture of this navbar is 
 
 We dont have RBMS in this small static application. But, for simple authentication, we have implimented alternative way to login without DB. As per this, Simply we can create an user file under users directory. the file name should follow the standerd patren like ***username.user***(***.user*** is the extention to tell that it is an user file of the application). The file will contain Password and User full name supperated by "|"(pipe).
 
-*EX: Userfile for the user Harishkumar is "user1.user"*
+*EX: Userfile for the user `Test User` is "user1.user"*
 
     The content of the file: 
-    password|Harishkumar
+    password|Test User
 
 Here with this filename, 
 ```
