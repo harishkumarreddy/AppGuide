@@ -1,0 +1,30 @@
+[{
+        "label": "Get Started",
+        "icon": "fa-dashboard",
+        "tooltip": "Get start now",
+        "url": "getstarted",
+        "target": "/pages/getstarted.html",
+        "is_default": true
+    },
+    {
+        "label": "Users",
+        "icon": "fa-users",
+        "tooltip": "User related info",
+        "url": "#",
+        "submenu": [{
+                "label": "Create User",
+                "icon": "fa-user",
+                "tooltip": "Create a new user",
+                "url": "newuser",
+                "target": "/pages/newuser.html"
+            },
+            {
+                "label": "Login",
+                "icon": "fa-key",
+                "tooltip": "User login",
+                "url": "login",
+                "target": "/pages/login.html"
+            }
+        ]
+    }
+]
