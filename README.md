@@ -8,7 +8,6 @@ Simple and lightweight, Zero programming documentation system.
 4. Deployment
 
 ### 1. Page creation / Edit existed
----
 #### *Page creation:*
 Create a HTML file in pages directory then write html view. 
 
@@ -19,7 +18,6 @@ Open specific HTML file from pages folder and update with new content.
 
 
 ### 2. Left Nav
----
 Left side nav of the application is main navigator. Strecture of this navbar is definded in ***sidemenu.json***. we should modify this file to add new rout or update existed.
 
 #### *Note:-*  ***sidemenu.json*** is base source for search engen in the app.
@@ -63,7 +61,7 @@ Left side nav of the application is main navigator. Strecture of this navbar is 
 
 
 ### 3. User Creation
----
+
 We dont have RBMS in this small static application. But, for simple authentication, we have implimented alternative way to login without DB. As per this, Simply we can create an user file under users directory. the file name should follow the standerd patren like ***username.user***(***.user*** is the extention to tell that it is an user file of the application). The file will contain Password and User full name supperated by "|"(pipe).
 
 *EX: Userfile for the user Harishkumar is "user1.user"*
@@ -83,7 +81,6 @@ FullName: Test User
 
 
 ### 4. Deplyment
----
 As it is a static page, we can directly place all projrct files under server public rout. 
 
 ---
